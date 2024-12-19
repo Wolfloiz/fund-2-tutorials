@@ -9,8 +9,13 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "6st-1-familiarizacao.md",
+        "6st-2-estacao-meteorologica.md",
+        "6st-3-mixer.md",
+        "6st-4-nervous-system.md",
+        "6st-5-rotacao-translacao.md",
+        "6st-6-trator-auto.md"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +28,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
