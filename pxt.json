@@ -15,7 +15,13 @@
         "6st-3-mixer.md",
         "6st-4-nervous-system.md",
         "6st-5-rotacao-translacao.md",
-        "6st-6-trator-auto.md"
+        "6st-6-trator-auto.md",
+        "7st--familiarizacao.md",
+        "7st-2-cancela-manual.md",
+        "7st-3-auto-gate.md",
+        "7st-4-hybrid-gate.md",
+        "7st-5-elevator-2-floors.md",
+        "7st-6-temperature-monitoring.md"
     ],
     "testFiles": [
         "test.ts"
