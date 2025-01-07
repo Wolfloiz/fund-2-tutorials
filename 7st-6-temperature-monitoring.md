@@ -111,3 +111,6 @@ Para ver esse dados em um gráfico, basta clicar em **Visual preview**.
 ```package
 fuzzyBot=github:FuzzyMakers/pxt-fuzzyMakers
 ```
+```package
+datalogger=github:pxt-microbit/tree/master/libs/datalogger
+```
