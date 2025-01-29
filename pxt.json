@@ -21,7 +21,15 @@
         "7st-3-auto-gate.md",
         "7st-4-hybrid-gate.md",
         "7st-5-elevator-2-floors.md",
-        "7st-6-temperature-monitoring.md"
+        "7st-6-temperature-monitoring.md",
+        "_locales/pt-BR/7st-6-temperature-monitoring.md",
+        "8st-1-familiarization.md",
+        "8st-2-energy-source.md",
+        "8st-3-eletricity-energy.md",
+        "9st-1-familiarization.md",
+        "9st-2-treasure-hunt.md",
+        "9st-3-morse-code.md",
+        "9st-5-teachable.md"
     ],
     "testFiles": [
         "test.ts"
