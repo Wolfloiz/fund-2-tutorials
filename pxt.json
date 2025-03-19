@@ -29,7 +29,9 @@
         "9st-1-familiarization.md",
         "9st-2-treasure-hunt.md",
         "9st-3-morse-code.md",
-        "9st-5-teachable.md"
+        "9st-5-teachable.md",
+        "8st-7-esteira-transportadora.md",
+        "8st-8-esteira-transportadora-2.md"
     ],
     "testFiles": [
         "test.ts"
