@@ -32,7 +32,8 @@
         "9st-5-teachable.md",
         "8st-7-esteira-transportadora.md",
         "8st-8-esteira-transportadora-2.md",
-        "8st-6-esteira-transportadora.md"
+        "8st-6-esteira-transportadora.md",
+        "8st-6-1-esteira.md"
     ],
     "testFiles": [
         "test.ts"
