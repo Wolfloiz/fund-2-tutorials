@@ -9,7 +9,6 @@
     },
     "files": [
         "README.md",
-        "main.ts",
         "6st-1-familiarizacao.md",
         "6st-2-estacao-meteorologica.md",
         "6st-3-mixer.md",
@@ -30,11 +29,13 @@
         "9st-2-treasure-hunt.md",
         "9st-3-morse-code.md",
         "9st-5-teachable.md",
-        "8st-7-esteira-transportadora.md",
-        "8st-8-esteira-transportadora-2.md",
-        "8st-6-esteira-transportadora.md",
         "8st-6-1-esteira.md",
-        "8st-4-sequencia-recursiva.md"
+        "8st-4-sequencia-recursiva.md",
+        "6st-7-robotic-arm.md",
+        "7st-7-warming-global.md",
+        "7st-8-anti-col-vehicle.md",
+        "8st-8-first-rev.md",
+        "8st-9-third-rev.md"
     ],
     "testFiles": [
         "test.ts"

@@ -292,5 +292,5 @@ Pronto! Agora, teste o código no Trator e explore diferentes trajetórias, ajus
 de rotação dos motores e os tempos de pausa.
 
 ```package
-fuzzyBot=github:Wolfloiz/pxt-fuzzyMakers
+fuzzyBot=github:FuzzyMakers/pxt-fuzzyMakers
 ```
