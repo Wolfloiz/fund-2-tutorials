@@ -89,6 +89,17 @@ Caso seu veículo não esteja andando para frente ao inicializar o Micro:bit, re
 e verifique seus parâmetros. Se necessário, inverta os sentidos de rotação dos motores nas porta ``||actuators:Porta P8||`` e ``||actuators:Porta P16||``,
 certificando-se sempre de que os sentidos de rotação dos motores sejam opostos um ao outro.
 
+```blocks
+basic.showIcon(IconNames.Heart)
+basic.pause(1000)
+basic.clearScreen()
+basic.forever(function () {
+    actuators.SetDirectionMotor(MotorDirection.clockwise, OutputPorts.P16)
+    actuators.SetDirectionMotor(MotorDirection.antiClockwise, OutputPorts.P8)
+    actuators.SetSpeedMotor(512, OutputPorts.P12)
+})
+```
+
 ## Passo 9
 Agora, vamos criar o teste condicional do sensor de obstáculos. Para isso, acesse a categoria 
 ``||logic:Lógica||`` e insira o laço ``||logic:se verdadeiro então||`` abaixo dos blocos anteriores.
@@ -325,6 +336,7 @@ basic.forever(function () {
     }
 })
 ```
+
 ```package
 fuzzyBot=github:FuzzyMakers/pxt-fuzzyMakers
 ```

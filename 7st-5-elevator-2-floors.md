@@ -67,7 +67,7 @@ e posicione-o dentro do laço ``||logic:se-verdadeiro-então||``, substituindo a
 ```blocks
 input.onButtonPressed(Button.A, function () {
     if (Andar == 0) {
-        actuators.SetDirectionMotor(MotorDirection.clockwise, OutputPorts.P8)
+        actuators.SetDirectionMotor(MotorDirection.clockwise, OutputPorts.P12)
     }
 })
 ```

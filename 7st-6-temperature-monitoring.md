@@ -22,7 +22,7 @@ input.onButtonPressed(Button.AB, function () {
 
 ## Passo 4
 Acesse a aba ``||basic:Básico||`` e selecione o comando ``||basic:mostrar ícone||``.
-Arraste-o para dentro do laço ``||basic:no iniciar||`` e altere o ícone para o sinal de "check" (✔).
+Arraste-o para dentro do laço ``||basic:no iniciar||`` e altere o ícone para o sinal de "check".
 Esse símbolo será exibido na matriz de LEDs e mostra que o Micro:Bit está em funcionamento.
 
 ```blocks

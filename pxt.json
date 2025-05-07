@@ -37,7 +37,8 @@
         "7st-7-warming-global.md",
         "7st-8-anti-col-vehicle.md",
         "8st-8-first-rev.md",
-        "8st-9-third-rev.md"
+        "8st-9-third-rev.md",
+        "8st-10-4st-rev.md"
     ],
     "testFiles": [
         "test.ts"
