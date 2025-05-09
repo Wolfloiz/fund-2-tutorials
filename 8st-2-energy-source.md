@@ -1,3 +1,4 @@
+### @diffs true
 # Geração de Energia
 
 ## Passo 1
@@ -381,6 +382,39 @@ ajustando os valores limites ou o intervalo de atualização!
 Para visualizar os dados registrados, conecte o Micro:bit ao computador por meio de um cabo USB. 
 O Micro:bit será exibido como uma unidade de armazenamento (pendrive). Em seguida, abra a pasta 
 do Mircro:bit que irá aparecer, clique duas vezes em **MY_DATA.HTM**. Para ver esse dados em um gráfico, basta clicar em **Visual preview**.
+
+```blocks
+```
+
+## Passo 22
+Se necessário, confira o seu código clicando na lâmpada de dica.
+
+```blocks
+input.onButtonPressed(Button.AB, function () {
+    table.deleteLog()
+    Carga = 0
+})
+let Carga = 0
+table.setColumnTitles(
+"Luz",
+"Carga"
+)
+basic.showIcon(IconNames.Heart)
+basic.pause(1000)
+basic.forever(function () {
+    Carga = Math.constrain(Carga + input.lightLevel(), 0, 4000)
+    led.plotBarGraph(
+    Carga,
+    4000
+    )
+    table.log(
+    table.createCell("Luz", input.lightLevel()),
+    table.createCell("Carga", Carga)
+    )
+    basic.pause(2000)
+})
+```
+
 
 ```package
 fuzzyBot=github:FuzzyMakers/pxt-fuzzyMakers
