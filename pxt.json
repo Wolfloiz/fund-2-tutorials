@@ -38,7 +38,10 @@
         "7st-8-anti-col-vehicle.md",
         "8st-8-first-rev.md",
         "8st-9-third-rev.md",
-        "8st-10-4st-rev.md"
+        "8st-10-4st-rev.md",
+        "8st-5-auto-garbage-truck.md",
+        "8st-6-auto-garbage-collector.md",
+        "9st-6-food-sorter.md"
     ],
     "testFiles": [
         "test.ts"
